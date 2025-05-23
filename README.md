@@ -1,51 +1,62 @@
-# Employee Payroll App
+# 🧾 Employee Payroll App
 
-A web-based employee payroll app that allows users to **add**, **edit**, **delete**, **search**, **filter**, and **sort** employee records. This project uses **jQuery**, **HTML/CSS**, and **JSON Server** to simulate a real-time backend.
+A **web-based employee payroll application** that allows users to **add**, **edit**, **delete**, **search**, **filter**, and **sort** employee records. It uses **jQuery**, **HTML/CSS**, and **JSON Server** to simulate a real-time backend environment.
 
 ---
 
 ## Features
-- View employee list in a dynamic table
-- Add new employee records with form validation
-- Edit existing employee details
-- Delete employee records with confirmation
-- Search employees by name, email, ID, or department
-- Filter by department
-- Sort employees by name, salary, or joining date
-- Dashboard with live statistics:
-  - Total Employees
-  - Total Payroll
-  - Average Salary
-  - Highest & Lowest Salaries
-  - Total Departments
-- Form validation and user-friendly error messages
 
-## 🛠Tech Stack
-- **Frontend**: HTML, CSS, JavaScript (jQuery)
-- **Backend**: JSON Server (REST API simulation)
+- View employee list in a dynamic table  
+-  Add new employee records with form validation  
+-  Edit existing employee details  
+- Delete employee records with confirmation  
+- Search employees by name, email, ID, or department  
+- Filter by department  
+- Sort employees by name, salary, or joining date  
+
+### Dashboard with Live Stats
+- Total Employees  
+- Total Payroll  
+- Average Salary  
+- Highest Salary 
+- Lowest Salary 
+- Total Departments  
 
 ---
 
-## 📁 Folder Structure
-project-folder/
-├── index.html
-├── css/style.css
-├── js/script.js
-├── db.json # JSON Server database
-├── README.md
+## Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript (jQuery)  
+- **Backend:** JSON Server (REST API simulation)
+
+---
 
 ## Getting Started
-### 1. Clone the Repository
-### 2. Install JSON Server
-npm install -g json-server
-### 3. Start JSON Server
-json-server --watch db.json --port 3000
-Your backend will be running at: http://localhost:3000/employees
 
-## Sample db.json 
+
+###  Install JSON Server
+
+```bash
+npm install -g json-server
+```
+
+###  Start JSON Server
+
+```bash
+json-server --watch db.json --port 3000
+```
+
+> The backend will be running at: [http://localhost:3000/employees](http://localhost:3000/employees)
+
+---
+
+## Sample `db.json`
+
+```json
 {
   "employees": [
     {
+      "id": "da7e",
       "employeeId": "1",
       "name": "Avinash Yadav",
       "email_address": "avinash@epa.com",
@@ -53,8 +64,7 @@ Your backend will be running at: http://localhost:3000/employees
       "department": "Engineering",
       "salary": "120000",
       "joinDate": "2025-05-01",
-      "address": "Chennai, India",
-      "id": "da7e"
+      "address": "Chennai, India"
     },
     {
       "id": "2b10",
@@ -65,13 +75,16 @@ Your backend will be running at: http://localhost:3000/employees
       "department": "Sales",
       "salary": "80000",
       "joinDate": "2025-05-16",
-      "address": "Mumbai,India"
+      "address": "Mumbai, India"
     }
   ]
 }
+```
 
+---
 
+## 📸 Application Screenshots
 
-
-
-
+![Screenshot 1](a.png)  
+![Screenshot 2](b.png)  
+![Screenshot 3](c.png)
