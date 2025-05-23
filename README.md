@@ -85,6 +85,6 @@ json-server --watch db.json --port 3000
 
 ## 📸 Application Screenshots
 
-![Screenshot 1](a.png)  
-![Screenshot 2](b.png)  
-![Screenshot 3](c.png)
+![Screenshot 1](images/dashboard.png)  
+![Screenshot 2](images/addEmployee.png)  
+
