@@ -1,0 +1,59 @@
+{
+  "employees": [
+    {
+      "employeeId": "1",
+      "name": "Avinash Yadav",
+      "email_address": "avinash@epa.com",
+      "phone_number": "9999999998",
+      "department": "Engineering",
+      "salary": "120000",
+      "joinDate": "2025-05-01",
+      "address": "Chennai, India",
+      "id": "da7e"
+    },
+    {
+      "id": "3b8f",
+      "employeeId": "2",
+      "name": "Rahul",
+      "email_address": "rahul@epa.com",
+      "phone_number": "8888888888",
+      "department": "HR",
+      "salary": "70000",
+      "joinDate": "2025-04-16",
+      "address": "Lucknow, India"
+    },
+    {
+      "id": "1d1e",
+      "employeeId": "3",
+      "name": "Gaurav",
+      "email_address": "gaurav@epa.com",
+      "phone_number": "7777777777",
+      "department": "Engineering",
+      "salary": "50000",
+      "joinDate": "2025-02-12",
+      "address": "Bihar,India"
+    },
+    {
+      "id": "a7cf",
+      "employeeId": "4",
+      "name": "Shubham Kumar",
+      "email_address": "shubham@epa.com",
+      "phone_number": "6666666666",
+      "department": "Engineering",
+      "salary": "40000",
+      "joinDate": "2025-04-16",
+      "address": "Jharkhand, India"
+    },
+    {
+      "id": "2b10",
+      "employeeId": "5",
+      "name": "Harshil Anand",
+      "email_address": "harshil@epa.com",
+      "phone_number": "6555555555",
+      "department": "Sales",
+      "salary": "80000",
+      "joinDate": "2025-05-16",
+      "address": "Mumbai,India"
+    }
+  ]
+}
