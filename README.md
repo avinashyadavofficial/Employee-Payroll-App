@@ -1,4 +1,4 @@
-# 🧾 Employee Payroll App
+# Employee Payroll Application
 
 A **web-based employee payroll application** that allows users to **add**, **edit**, **delete**, **search**, **filter**, and **sort** employee records. It uses **jQuery**, **HTML/CSS**, and **JSON Server** to simulate a real-time backend environment.
 
@@ -85,6 +85,6 @@ json-server --watch db.json --port 3000
 
 ## 📸 Application Screenshots
 
-![Screenshot 1](a.png)  
-![Screenshot 2](b.png)  
-![Screenshot 3](c.png)
+![Screenshot 1](images/dashboard.png)  
+![Screenshot 2](images/addEmployee.png)  
+
