@@ -1,4 +1,4 @@
-# 🧾 Employee Payroll App
+# Employee Payroll Application
 
 A **web-based employee payroll application** that allows users to **add**, **edit**, **delete**, **search**, **filter**, and **sort** employee records. It uses **jQuery**, **HTML/CSS**, and **JSON Server** to simulate a real-time backend environment.
 
