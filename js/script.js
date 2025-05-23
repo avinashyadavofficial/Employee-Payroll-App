@@ -26,7 +26,7 @@ async function loadEmployees() {
         renderEmployees();
         updateStats();
     } catch (error) {
-        console.log('Error: Failed to load employees');
+        console.log('Error: Failed to load employees',error);
         showMessage('Failed to load employees. Ensure JSON Server is running.', 'error');
     }
 }
@@ -113,7 +113,7 @@ async function handleFormSubmit(e) {
         await loadEmployees();
         setTimeout(showDashboard, 1500);
     } catch (error) {
-        console.log('Error: Failed to save employee');
+        console.log('Error: Failed to save employee',error);
         showMessage('Failed to save employee', 'error');
     }
 }
@@ -202,7 +202,7 @@ async function deleteEmployee(id) {
         showMessage('Employee deleted successfully!', 'success');
         await loadEmployees();
     } catch (error) {
-        console.log('Error: Failed to delete employee');
+        console.log('Error: Failed to delete employee',error);
         showMessage('Failed to delete employee', 'error');
     }
 }
